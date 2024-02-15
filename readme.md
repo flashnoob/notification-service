@@ -37,7 +37,8 @@ This project demonstrates a simple notification service built using RabbitMQ, a 
 
 4. **Running the Service:**
     ```bash
-    pm2 start pm2.config.cjs
+    pm2 start pm2.config.cjs // for API instance
+    node consumer.js //to receive notifications and emulate microservice  server 
     ```
 
 **## Usage**
